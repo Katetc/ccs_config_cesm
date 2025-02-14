@@ -517,6 +517,17 @@
   </domain>
 
   <!-- ======================================================== -->
+  <!-- CITCOM domains-->
+  <!-- ======================================================== -->
+
+  <domain name="giatest">
+    <nx>90</nx>  <ny>50</ny>
+    <mesh>$DIN_LOC_ROOT/share/meshes/ww3a_120222_ESMFmesh.nc</mesh>
+    <desc>WW3 90 x 50 global grid</desc>
+    <support>For testing of the CITCOM gia model</support>
+  </domain>
+
+  <!-- ======================================================== -->
   <!-- WW3 domains-->
   <!-- ======================================================== -->
 

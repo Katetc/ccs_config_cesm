@@ -23,6 +23,7 @@
     <grid name="wav"       compset="WW3"         >wgx3v7</grid>
     <grid name="wav"       compset="XWAV"        >wgx3v7</grid>
     <grid name="iac"       compset="SIAC"        >null</grid>
+    <grid name="gia"       compset="Utest"       >giatest</grid>
   </model_grid_defaults>
 
   <model_grid alias="g16_g16" compset="DATM.+DROF">
@@ -1465,6 +1466,11 @@
   <!-- The following grid is only used for ADWAV testing -->
   <model_grid alias="ww3a" compset="_WW3|DWAV">
     <grid name="wav">ww3a</grid>
+  </model_grid>
+
+  <!-- The following grid is only used for CitcomSVE testing -->
+  <model_grid alias="giatest" compset="_CITCOM">
+    <grid name="gia">giatest</grid>
   </model_grid>
 
 </grids>
